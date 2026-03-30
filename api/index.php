@@ -36,7 +36,7 @@
     <h1>Welcome Dev 101 :</h1>
 
     <!-- Image intégrée -->
-    <img src="image.png" alt="Dev Setup">
+    <img src="/cover.png" alt="Dev Setup">
 
     <?php
 
@@ -47,7 +47,7 @@
 
     echo("<h2>Premier site de $groupe sur $plt</h2>");
 
-    echo("<a href='At1.pdf'><h3>Atelier 1 :</h3></a>");
+    echo("<a href='/At1.pdf'><h3>Atelier 1 :</h3></a>");
 
     Triangle(10);
 
