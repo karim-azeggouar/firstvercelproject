@@ -27,7 +27,9 @@ include_once 'Traitements.php';
      Triangle (10); 
     
 
+      echo("<h3>   Atelier 2   : </h3>");
 
+Triangle (20); 
 
      ?>
     
