@@ -121,7 +121,7 @@
 
     echo "<div class='card'>";
     echo "<h2>Atelier 1</h2>";
-    echo "<a href='At1.pdf' class='btn'>Voir PDF</a>";
+    echo "<a href='/At1.pdf' class='btn'>Voir PDF</a>";
     echo "</div>";
 
     echo "<div class='card'>";
