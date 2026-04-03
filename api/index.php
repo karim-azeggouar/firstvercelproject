@@ -193,7 +193,7 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
  }
 
  echo "<div class='card'>";
-    echo "<h2>Appel Table </h2>";
+    echo "<h2>Appel Triangle via form </h2>";
    
     echo "</div>";
 
@@ -221,6 +221,40 @@ nbre de lignes : <input type="text"  name="rowst" /> <br/>
  if(!empty($_POST['action3']))
     {
  $nbl=$_POST['rowst'];
+Triangle($nbl);
+ }
+
+
+
+
+
+
+
+echo "<div class='card'>";
+    echo "<h2>Appel Triangle via liens hypertext </h2>";
+ 
+    
+echo ("<a href='index.php?action4=3'>3 </a>-");
+echo ("<a href='index.php?action4=4'>4 </a>-");
+echo ("<a href='index.php?action4=5'>5 </a>-");
+echo ("<a href='index.php?action4=6'>6 </a>-");
+echo ("<a href='index.php?action4=7'>7 </a>-");
+echo ("<a href='index.php?action4=8'>8 </a>-");
+echo ("<a href='index.php?action4=9'>9 </a>-");
+echo ("<a href='index.php?action4=10'>10 </a>-");
+
+
+
+
+    echo "</div>";
+
+
+// 7ta nkliki 3la lien 
+// action 4
+
+ if(!empty($_GET['action4']))
+    {
+ $nbl=$_GET['action4'];
 Triangle($nbl);
  }
 
