@@ -182,9 +182,16 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
 
 <?php   
 
-$nbl=$_POST['rows'];
-$nbc=$_POST['cols'];
-table($nbl,$nbc);
+ // 7ta nkliki 3la submit ??????
+
+
+ if(!empty($_POST['action2']))
+    {
+ $nbl=$_POST['rows'];
+ $nbc=$_POST['cols'];
+ table($nbl,$nbc);
+ }
+
 
 
 ?>
