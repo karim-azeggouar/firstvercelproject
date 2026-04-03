@@ -134,6 +134,27 @@
     Triangle(20);
     echo "</div>";
 
+
+
+    echo "<div class='card'>";
+    echo "<h2>Communication via formulaire : </h2>";
+?>
+
+ <form method="POST"   action="login.php">
+
+Login: <input type="text"  name="log" /> <br/>
+
+Password: <input type="password"  name="pass" /> <br/>
+
+<input type="submit"  name="action1"  value="connexion" />
+<input type="reset">
+
+
+</form>
+
+<?php
+    echo "</div>";
+
     ?>
 
 </div>
