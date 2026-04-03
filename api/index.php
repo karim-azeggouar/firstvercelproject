@@ -155,7 +155,40 @@ Password: <input type="password"  name="pass" /> <br/>
 <?php
     echo "</div>";
 
+
+
+  echo "<div class='card'>";
+    echo "<h2>Appel Table </h2>";
+   
+    echo "</div>";
+
+
     ?>
+
+<form method="POST"   action="index.php">
+
+nbre de lignes : <input type="text"  name="rows" /> <br/>
+
+nbre de colonnes : <input type="text"  name="cols" /> <br/>
+
+<input type="submit"  name="action2"  value="dessiner" />
+<input type="reset">
+
+
+</form>
+
+
+
+
+<?php   
+
+$nbl=$_POST['rows'];
+$nbc=$_POST['cols'];
+table($nbl,$nbc);
+
+
+?>
+
 
 </div>
 

@@ -47,7 +47,24 @@ function Triangle($lignes){
 
 }
 
+// function table de multiplication : 
 
+function table($lignes, $colonnes) {
+    echo "<table border='1'>";
+
+    for ($i = 1; $i <= $lignes; $i++) {
+        echo "<tr>";
+
+        for ($j = 1; $j <= $colonnes; $j++) {
+            echo "<td>" . ($i * $j) . "</td>";
+        }
+
+        echo "</tr>";
+    }
+
+    echo "</table>";
+}
+?>
 
 
 
