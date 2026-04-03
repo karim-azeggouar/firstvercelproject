@@ -183,7 +183,7 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
 <?php   
 
  // 7ta nkliki 3la submit ??????
-
+// action 2
 
  if(!empty($_POST['action2']))
     {
@@ -192,9 +192,42 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
  table($nbl,$nbc);
  }
 
+ echo "<div class='card'>";
+    echo "<h2>Appel Table </h2>";
+   
+    echo "</div>";
+
+?>
+<form method="POST"   action="index.php">
+
+nbre de lignes : <input type="text"  name="rowst" /> <br/>
+
+
+<input type="submit"  name="action3"  value="dessiner" />
+<input type="reset">
+
+
+</form>
+
+
+
+
+<?php
+  
+
+ // 7ta nkliki 3la submit ??????
+// action 3
+
+ if(!empty($_POST['action3']))
+    {
+ $nbl=$_POST['rowst'];
+Triangle($nbl);
+ }
+
 
 
 ?>
+
 
 
 </div>
