@@ -13,17 +13,17 @@
 </form>
 
 
-
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $file = $_FILES["photo"];
 
     if ($file["error"] == 0) {
 
-        $destination = __DIR__ . "/../public/" . $file["name"];
+        $destination = "/tmp/" . $file["name"];
 
         if (move_uploaded_file($file["tmp_name"], $destination)) {
-            echo "Upload réussi !";
+            echo "Upload réussi !<br>";
+            echo "Fichier stocké temporairement dans /tmp";
         } else {
             echo "Erreur upload";
         }
