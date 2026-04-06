@@ -13,7 +13,7 @@ foreach ($files as $file) {
         $base64 = base64_encode($data);
 
         echo "<p>$file</p>";
-        echo "<img src='data:image/jpeg;base64,$base64' width='250'><br><br>";
+        echo "<img src='data:image/jpg;base64,$base64' width='250'><br><br>";
     }
 }
 ?>
