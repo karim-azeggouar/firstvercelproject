@@ -19,13 +19,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $file = $_FILES["photo"];
 
     if ($file["error"] == 0) {
-        $destination = "public/" . $file["name"];
 
-        move_uploaded_file($file["tmp_name"], $destination);
+        $destination = __DIR__ . "/../public/" . $file["name"];
 
-        echo "Upload réussi !";
+        if (move_uploaded_file($file["tmp_name"], $destination)) {
+            echo "Upload réussi !";
+        } else {
+            echo "Erreur upload";
+        }
+
     } else {
-        echo "Erreur lors de l'upload";
+        echo "Erreur fichier";
     }
 }
 ?>
