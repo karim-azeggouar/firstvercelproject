@@ -7,10 +7,13 @@ foreach ($files as $file) {
 
     $path = "/tmp/" . $file;
 
-    $data = base64_encode(@file_get_contents($path));
-    $type = @mime_content_type($path);
+    $data = @file_get_contents($path);
 
-    echo "<p>$file</p>";
-    echo "<img src='data:$type;base64,$data' width='250'><br><br>";
+    if ($data) {
+        $base64 = base64_encode($data);
+
+        echo "<p>$file</p>";
+        echo "<img src='data:image/jpeg;base64,$base64' width='250'><br><br>";
+    }
 }
 ?>
