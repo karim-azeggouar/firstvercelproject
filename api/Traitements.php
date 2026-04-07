@@ -86,7 +86,7 @@ echo "<tr><td>Loisirs</td><td>$loisirs</td></tr>";
 
 // lecture tableau des loisirs 
 echo"<tr>";
-
+echo"<td>Loisirs2</td>";
      echo"<td>";
 
 
