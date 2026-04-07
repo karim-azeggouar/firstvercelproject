@@ -182,8 +182,6 @@ $infos=$_POST['infos'];
 
 displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$infos);
 
-
-
     }
 
 
