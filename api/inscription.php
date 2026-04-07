@@ -186,9 +186,10 @@ $ville=$_POST['ville'];
 $dn=$_POST['date_naissance'];
 $sexe=$_POST['sexe'];
 $loisirs=$_POST['loisirs'];
+$loisirs2=$_POST['loi'];
 $infos=$_POST['infos'];
 
-displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$infos);
+displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$loisirs2,$infos);
 
     }
 

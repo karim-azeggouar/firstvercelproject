@@ -67,7 +67,7 @@ function table($lignes, $colonnes) {
 
 // traitement inscription : 
 
-function displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$infos){
+function displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$loisirs2,$infos){
 
 
 echo "<h2>Informations de l'étudiant</h2>";
@@ -83,6 +83,27 @@ echo "<tr><td>Ville</td><td>$ville</td></tr>";
 echo "<tr><td>Date de naissance</td><td>$dn</td></tr>";
 echo "<tr><td>Sexe</td><td>$sexe</td></tr>";
 echo "<tr><td>Loisirs</td><td>$loisirs</td></tr>";
+
+// lecture tableau des loisirs 
+echo"<tr>";
+
+     echo"<td>";
+
+
+          echo"<ul>";
+            foreach($loisirs2 as $loi)
+                {
+            echo"<li>$loi</li>";
+                }
+
+          echo"</li>";
+
+     echo"</ul>";
+
+echo"</tr>";
+
+
+
 echo "<tr><td>Infos complémentaires</td><td>$infos</td></tr>";
 
 echo "</table>";
