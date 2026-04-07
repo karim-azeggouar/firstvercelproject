@@ -161,6 +161,11 @@
 
 
 <?php 
+
+
+include_once 'Traitements.php';
+
+
 // action inscription 
 
 if(!empty($_POST['action_inscription']))
@@ -175,24 +180,7 @@ $sexe=$_POST['sexe'];
 $loisirs=$_POST['loisirs'];
 $infos=$_POST['infos'];
 
-echo "<h2>Informations de l'étudiant</h2>";
-
-echo "<table border='1' cellpadding='10' cellspacing='0'>";
-
-echo "<tr><th>Champ</th><th>Valeur</th></tr>";
-
-echo "<tr><td>Numéro</td><td>$num</td></tr>";
-echo "<tr><td>Nom</td><td>$nom</td></tr>";
-echo "<tr><td>Prénom</td><td>$prenom</td></tr>";
-echo "<tr><td>Ville</td><td>$ville</td></tr>";
-echo "<tr><td>Date de naissance</td><td>$dn</td></tr>";
-echo "<tr><td>Sexe</td><td>$sexe</td></tr>";
-echo "<tr><td>Loisirs</td><td>$loisirs</td></tr>";
-echo "<tr><td>Infos complémentaires</td><td>$infos</td></tr>";
-
-echo "</table>";
-
-
+displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$infos);
 
 
 
