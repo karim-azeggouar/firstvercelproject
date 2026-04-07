@@ -124,15 +124,15 @@
     echo "<a href='/At1.pdf' class='btn'>Voir PDF</a>";
     echo "</div>";
 
-    echo "<div class='card'>";
-    echo "<h2>Atelier 2</h2>";
-    Triangle(10);
-    echo "</div>";
 
-    echo "<div class='card'>";
-    echo "<h2>Atelier 3</h2>";
-    Triangle(20);
+     echo "<div class='card'>";
+    echo "<h2>Atelier 2</h2>";
+    echo "<a href='/At2.pdf' class='btn'>Voir PDF</a>";
+    echo "<a href='inscription.php' class='btn'>Inscription en ligne </a>";
+    
     echo "</div>";
+   
+
 
 
 
