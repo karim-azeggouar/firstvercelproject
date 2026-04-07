@@ -65,6 +65,24 @@ function table($lignes, $colonnes) {
     echo "</table>";
 }
 
+
+
+// function calculage 
+
+function getAge($an)
+{
+
+$andaba=date('Y');
+$age=$andaba-$an;
+
+return $age;
+}
+
+
+
+
+
+
 // traitement inscription : 
 
 function displayinfosintohtmltable($num,$nom,$prenom,$ville,$dn,$sexe,$loisirs,$loisirs2,$infos){
@@ -81,6 +99,14 @@ echo "<tr><td>Nom</td><td>$nom</td></tr>";
 echo "<tr><td>Prénom</td><td>$prenom</td></tr>";
 echo "<tr><td>Ville</td><td>$ville</td></tr>";
 echo "<tr><td>Date de naissance</td><td>$dn</td></tr>";
+
+$an=explode("-",$dn)[0];
+$age=getAge($an);
+echo "<tr><td>Age</td><td>$age</td></tr>";
+
+
+
+
 echo "<tr><td>Sexe</td><td>$sexe</td></tr>";
 echo "<tr><td>Loisirs</td><td>$loisirs</td></tr>";
 
