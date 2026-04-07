@@ -145,7 +145,15 @@
                 <option value="Voyage">Voyage</option>
             </select>
         </div>
-
+<div class="form-group">
+            <label>Loisirs 2</label>
+            
+                <input  name="loi[]" type="checkbox" value="Sport"/>Sport
+                <input  name="loi[]" type="checkbox" value="Lecture"/>Lecture
+                <input  name="loi[]" type="checkbox" value="musique"/>Music
+                <input  name="loi[]" type="checkbox" value="Voyage"/>Travelling
+                
+        </div>
         <div class="form-group">
             <label>Informations complémentaires</label>
             <textarea name="infos" rows="3"></textarea>
