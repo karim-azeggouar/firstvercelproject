@@ -134,7 +134,9 @@
    
  echo "<div class='card'>";
     echo "<h2>Atelier 3</h2>";
-    echo "<a href='/At3.pdf' class='btn'>Voir PDF</a>";
+    echo "<a href='/At3_enn.pdf' class='btn'>Ennoncé Atelier 3 </a>";
+    
+    echo "<a href='/At3.pdf' class='btn'>Voir  Rapport Atelier 3PDF</a>";
     echo "<a href='https://github.com/karim-azeggouar/atelier3_dev101.git' class='btn'>GitHub Repo </a>";
     
     echo "</div>";
