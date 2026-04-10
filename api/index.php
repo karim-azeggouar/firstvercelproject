@@ -119,6 +119,14 @@
     echo "<h2>Premier site de $groupe sur $plt</h2>";
     echo "</div>";
 
+
+echo "<div class='card'>";
+    echo "<h2>Cours PHP</h2>";
+    echo "<a href='/php.pptx' class='btn'>Telecharger Le cours</a>";
+    echo "</div>";
+
+
+
     echo "<div class='card'>";
     echo "<h2>Atelier 1</h2>";
     echo "<a href='/At1.pdf' class='btn'>Voir PDF</a>";
@@ -193,14 +201,14 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
     echo "</div>";
 
 
-    ?>
+    
 
 
 
 
 
 
-<?php   
+  
 
 
 
@@ -224,7 +232,7 @@ nbre de lignes : <input type="text"  name="rowst" /> <br/>
 
 
 
-?>
+
 
 
 
@@ -250,7 +258,7 @@ echo "</div>";
 
 
 
-echo "<div class='card'>";
+    echo "<div class='card'>";
     echo "<h2>Appel Triangle via liens hypertext </h2>";
  
     
@@ -261,7 +269,7 @@ echo ("<a href='index.php?action4=6'>6 </a>-");
 echo ("<a href='index.php?action4=7'>7 </a>-");
 echo ("<a href='index.php?action4=8'>8 </a>-");
 echo ("<a href='index.php?action4=9'>9 </a>-");
-echo ("<a href='index.php?action4=10'>10 </a>-");
+echo ("<a href='index.php?action4=10'>10 </a><br/>");
 
 
 // 7ta nkliki 3la lien 
