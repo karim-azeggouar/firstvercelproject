@@ -206,11 +206,10 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
 
  echo "<div class='card'>";
     echo "<h2>Appel Triangle via form </h2>";
-   
-    echo "</div>";
 
-?>
-<form method="POST"   action="index.php">
+
+        ?>
+   <form method="POST"   action="index.php">
 
 nbre de lignes : <input type="text"  name="rowst" /> <br/>
 
@@ -220,6 +219,13 @@ nbre de lignes : <input type="text"  name="rowst" /> <br/>
 
 
 </form>
+    
+
+
+
+
+?>
+
 
 
 
@@ -234,6 +240,8 @@ nbre de lignes : <input type="text"  name="rowst" /> <br/>
     {
  $nbl=$_POST['rowst'];
 Triangle($nbl);
+
+echo "</div>";
  }
 
 
@@ -256,11 +264,6 @@ echo ("<a href='index.php?action4=9'>9 </a>-");
 echo ("<a href='index.php?action4=10'>10 </a>-");
 
 
-
-
-    echo "</div>";
-
-
 // 7ta nkliki 3la lien 
 // action 4
 
@@ -269,6 +272,11 @@ echo ("<a href='index.php?action4=10'>10 </a>-");
  $nbl=$_GET['action4'];
 Triangle($nbl);
  }
+
+
+
+
+    echo "</div>";
 
 
 
