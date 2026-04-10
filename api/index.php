@@ -166,12 +166,7 @@ Password: <input type="password"  name="pass" /> <br/>
 
   echo "<div class='card'>";
     echo "<h2>Appel Table </h2>";
-   
-    echo "</div>";
-
-
-    ?>
-
+   ?>
 <form method="POST"   action="index.php">
 
 nbre de lignes : <input type="text"  name="rows" /> <br/>
@@ -184,10 +179,7 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
 
 </form>
 
-
-
-
-<?php   
+<?php
 
  // 7ta nkliki 3la submit ??????
 // action 2
@@ -198,6 +190,19 @@ nbre de colonnes : <input type="text"  name="cols" /> <br/>
  $nbc=$_POST['cols'];
  table($nbl,$nbc);
  }
+    echo "</div>";
+
+
+    ?>
+
+
+
+
+
+
+<?php   
+
+
 
  echo "<div class='card'>";
     echo "<h2>Appel Triangle via form </h2>";
