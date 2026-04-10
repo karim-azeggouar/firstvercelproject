@@ -132,7 +132,12 @@
     
     echo "</div>";
    
-
+ echo "<div class='card'>";
+    echo "<h2>Atelier 3</h2>";
+    echo "<a href='/At3.pdf' class='btn'>Voir PDF</a>";
+    echo "<a href='inscription.php' class='btn'>GitHub Repo </a>";
+    
+    echo "</div>";
 
 
 
