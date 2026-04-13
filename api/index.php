@@ -125,16 +125,27 @@ echo "<h2>Cours PHP</h2>";
 echo "<a href='/php.pptx' class='btn'>Telecharger Le cours</a>";
 echo "</div>";
 
-
 // Communication
 echo "<div class='card'>";
 echo "<h2>Communication via formulaire :</h2>";
 ?>
-<form method="POST" action="login.php">
-Login: <input type="text" name="log" /> <br/>
-Password: <input type="password" name="pass" /> <br/>
-<input type="submit" name="action1" value="connexion" />
-<input type="reset">
+<form method="POST" action="login.php" class="form">
+    
+    <div class="form-group">
+        <label>Login:</label>
+        <input type="text" name="log" class="input" />
+    </div>
+
+    <div class="form-group">
+        <label>Password:</label>
+        <input type="password" name="pass" class="input" />
+    </div>
+
+    <div class="form-actions">
+        <input type="submit" name="action1" value="connexion" class="btn" />
+        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
+    </div>
+
 </form>
 <?php
 echo "</div>";
@@ -144,11 +155,23 @@ echo "</div>";
 echo "<div class='card'>";
 echo "<h2>Appel Table</h2>";
 ?>
-<form method="POST" action="index.php">
-nbre de lignes : <input type="text" name="rows" /> <br/>
-nbre de colonnes : <input type="text" name="cols" /> <br/>
-<input type="submit" name="action2" value="dessiner" />
-<input type="reset">
+<form method="POST" action="index.php" class="form">
+
+    <div class="form-group">
+        <label>nbre de lignes :</label>
+        <input type="text" name="rows" class="input" />
+    </div>
+
+    <div class="form-group">
+        <label>nbre de colonnes :</label>
+        <input type="text" name="cols" class="input" />
+    </div>
+
+    <div class="form-actions">
+        <input type="submit" name="action2" value="dessiner" class="btn" />
+        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
+    </div>
+
 </form>
 <?php
 if(!empty($_POST['action2'])){
@@ -161,10 +184,18 @@ echo "</div>";
 echo "<div class='card'>";
 echo "<h2>Appel Triangle via form</h2>";
 ?>
-<form method="POST" action="index.php">
-nbre de lignes : <input type="text" name="rowst" /> <br/>
-<input type="submit" name="action3" value="dessiner" />
-<input type="reset">
+<form method="POST" action="index.php" class="form">
+
+    <div class="form-group">
+        <label>nbre de lignes :</label>
+        <input type="text" name="rowst" class="input" />
+    </div>
+
+    <div class="form-actions">
+        <input type="submit" name="action3" value="dessiner" class="btn" />
+        <input type="reset" value="Réinitialiser" class="btn btn-secondary" />
+    </div>
+
 </form>
 <?php
 if(!empty($_POST['action3'])){
@@ -177,13 +208,16 @@ echo "</div>";
 echo "<div class='card'>";
 echo "<h2>Appel Triangle via liens hypertext</h2>";
 
+echo "<div class='links'>";
 for($i=3;$i<=10;$i++){
-    echo "<a href='index.php?action4=$i'>$i </a>-";
+    echo "<a href='index.php?action4=$i' class='link'>$i</a>";
 }
+echo "</div>";
 
 if(!empty($_GET['action4'])){
     Triangle($_GET['action4']);
 }
+
 echo "</div>";
 
 
