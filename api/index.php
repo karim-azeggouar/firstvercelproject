@@ -1,3 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev 101</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #0f172a;
+            color: white;
+        }
+
+        /* HERO SECTION */
+        .hero {
+            position: relative;
+            height: 60vh;
+            background: url('/cover.png') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.6);
+        }
+
+        .hero-content {
+            position: relative;
+            text-align: center;
+            z-index: 2;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #cbd5f5;
+        }
+
+        /* CONTENT */
+        .container {
+            padding: 40px 20px;
+        }
+
+        .card {
+            background: #1e293b;
+            padding: 20px;
+            margin: 20px auto;
+            border-radius: 15px;
+            max-width: 600px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+        }
+
+        h2 {
+            color: #38bdf8;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background: #38bdf8;
+            color: black;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background: #0ea5e9;
+        }
+
+        /* RESPONSIVE */
+        @media(max-width: 768px){
+            .hero h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+        <h1>Welcome Dev 101</h1>
+        <p>Build • Learn • Deploy 🚀</p>
+    </div>
+</section>
+
+<!-- CONTENT -->
+<div class="container">
 <?php
 
 include_once 'Traitements.php';
@@ -10,14 +119,14 @@ echo "<h2>Premier site de $groupe sur $plt</h2>";
 echo "</div>";
 
 
-// 1️⃣ Cours PHP
+// Cours PHP
 echo "<div class='card'>";
 echo "<h2>Cours PHP</h2>";
 echo "<a href='/php.pptx' class='btn'>Telecharger Le cours</a>";
 echo "</div>";
 
 
-// 2️⃣ Communication via formulaire
+// Communication
 echo "<div class='card'>";
 echo "<h2>Communication via formulaire :</h2>";
 ?>
@@ -31,7 +140,7 @@ Password: <input type="password" name="pass" /> <br/>
 echo "</div>";
 
 
-// 3️⃣ Appel Table
+// Table
 echo "<div class='card'>";
 echo "<h2>Appel Table</h2>";
 ?>
@@ -42,17 +151,13 @@ nbre de colonnes : <input type="text" name="cols" /> <br/>
 <input type="reset">
 </form>
 <?php
-
 if(!empty($_POST['action2'])){
-    $nbl=$_POST['rows'];
-    $nbc=$_POST['cols'];
-    table($nbl,$nbc);
+    table($_POST['rows'], $_POST['cols']);
 }
-
 echo "</div>";
 
 
-// 4️⃣ Appel Triangle via form
+// Triangle form
 echo "<div class='card'>";
 echo "<h2>Appel Triangle via form</h2>";
 ?>
@@ -62,44 +167,34 @@ nbre de lignes : <input type="text" name="rowst" /> <br/>
 <input type="reset">
 </form>
 <?php
-
 if(!empty($_POST['action3'])){
-    $nbl=$_POST['rowst'];
-    Triangle($nbl);
+    Triangle($_POST['rowst']);
 }
-
 echo "</div>";
 
 
-// 5️⃣ Appel Triangle via liens hypertext
+// Triangle liens
 echo "<div class='card'>";
 echo "<h2>Appel Triangle via liens hypertext</h2>";
 
-echo ("<a href='index.php?action4=3'>3 </a>-");
-echo ("<a href='index.php?action4=4'>4 </a>-");
-echo ("<a href='index.php?action4=5'>5 </a>-");
-echo ("<a href='index.php?action4=6'>6 </a>-");
-echo ("<a href='index.php?action4=7'>7 </a>-");
-echo ("<a href='index.php?action4=8'>8 </a>-");
-echo ("<a href='index.php?action4=9'>9 </a>-");
-echo ("<a href='index.php?action4=10'>10 </a><br/>");
-
-if(!empty($_GET['action4'])){
-    $nbl=$_GET['action4'];
-    Triangle($nbl);
+for($i=3;$i<=10;$i++){
+    echo "<a href='index.php?action4=$i'>$i </a>-";
 }
 
+if(!empty($_GET['action4'])){
+    Triangle($_GET['action4']);
+}
 echo "</div>";
 
 
-// 6️⃣ Atelier 1
+// Atelier 1
 echo "<div class='card'>";
 echo "<h2>Atelier 1</h2>";
 echo "<a href='/At1.pdf' class='btn'>Voir PDF</a>";
 echo "</div>";
 
 
-// 7️⃣ Atelier 2
+// Atelier 2
 echo "<div class='card'>";
 echo "<h2>Atelier 2</h2>";
 echo "<a href='/At2.pdf' class='btn'>Voir PDF</a>";
@@ -107,7 +202,7 @@ echo "<a href='inscription.php' class='btn'>Inscription en ligne</a>";
 echo "</div>";
 
 
-// 8️⃣ Atelier 3
+// Atelier 3
 echo "<div class='card'>";
 echo "<h2>Atelier 3</h2>";
 echo "<a href='/At3_enn.pdf' class='btn'>Ennoncé Atelier 3</a>";
@@ -116,3 +211,10 @@ echo "<a href='https://github.com/karim-azeggouar/atelier3_dev101.git' class='bt
 echo "</div>";
 
 ?>
+
+
+
+</div>
+
+</body>
+</html>
