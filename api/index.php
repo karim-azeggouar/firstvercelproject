@@ -9,6 +9,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
     <style>
+
+        .form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+label {
+    width: 150px; /* 👈 même largeur pour tous */
+    font-size: 14px;
+    color: #cbd5f5;
+}
+
+.input {
+    width: 250px;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: #e2e8f0;
+}
         body {
             margin: 0;
             font-family: 'Poppins', sans-serif;
