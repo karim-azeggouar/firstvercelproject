@@ -272,7 +272,7 @@ echo "<div class='card'>";
 echo "<h2>Atelier 4</h2>";
 echo "<a href='/At4.pdf' class='btn'>Ennoncé Atelier 4</a>";
 echo "<a href='/Rapp4.pdf' class='btn'>Voir Rapport Atelier 4</a>";
-echo "<a href='#' class='btn'>GitHub Repo</a>";
+echo "<a href='https://github.com/karim-azeggouar/atel4.git' class='btn'>GitHub Repo</a>";
 echo "</div>";
 ?>
 
