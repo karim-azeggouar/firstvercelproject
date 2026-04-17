@@ -274,6 +274,20 @@ echo "<a href='/At4.pdf' class='btn'>Ennoncé Atelier 4</a>";
 echo "<a href='/Rapp4.pdf' class='btn'>Voir Rapport Atelier 4</a>";
 echo "<a href='https://github.com/karim-azeggouar/atel4.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
 echo "</div>";
+
+
+
+
+
+// Atelier 5
+echo "<div class='card'>";
+echo "<h2>Atelier 5</h2>";
+echo "<a href='/At5.pdf' class='btn'>Ennoncé Atelier 5</a>";
+echo "<a href='/Rapp5.pdf' class='btn'>Voir Rapport Atelier 5</a>";
+echo "<a href='https://github.com/karim-azeggouar/Atelier5.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
+echo "</div>";
+
+
 ?>
 
 
