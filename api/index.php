@@ -230,7 +230,7 @@ echo "<h2>Appel Triangle via liens hypertext</h2>";
 
 echo "<div class='links'>";
 for($i=3;$i<=10;$i++){
-    echo "<a href='index.php?action4=$i' class='link'>$i</a>";
+    echo "<a href='index.php?action4=$i' class='link'>$i</a>***";
 }
 echo "</div>";
 
