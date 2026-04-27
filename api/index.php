@@ -310,6 +310,17 @@ echo "<a href='https://www.youtube.com/watch?v=P6CxWmIDaDM&list=PL7FOokTTayoVqF9
 echo "</div>";
 
 
+// Atelier 8
+echo "<div class='card'>";
+echo "<h2>Atelier 8</h2>";
+echo "<a href='/At8.pdf' class='btn'>Ennoncé Atelier 8</a>";
+echo "<a href='#' class='btn'>Voir Rapport Atelier 8</a>";
+echo "<a href='https://github.com/karim-azeggouar/atelier8.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
+
+echo "<a href='#' class='btn'>Mystore Efruit</a>";
+
+echo "</div>";
+
 ?>
 
 
