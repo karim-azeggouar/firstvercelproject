@@ -318,7 +318,7 @@ echo "<a href='#' class='btn'>Voir Rapport Atelier 8</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier8.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
 
 echo "<a href='https://efruits.vercel.app/acc.php' class='btn'>Mystore Efruit</a>";
-echo "<a href='https://github.com/karim-azeggouar/atelier8.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Vercel</a>";
+echo "<a href='https://github.com/karim-azeggouar/efruits.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Vercel</a>";
 
 echo "</div>";
 
