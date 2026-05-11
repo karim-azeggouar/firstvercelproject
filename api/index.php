@@ -322,6 +322,19 @@ echo "<a href='https://github.com/karim-azeggouar/efruits.git' class='btn'><i cl
 
 echo "</div>";
 
+
+
+
+// Atelier 8
+echo "<div class='card'>";
+echo "<h2>Atelier 9</h2>";
+echo "<a href='/ApplicationBDD.pptx' class='btn'>Ennoncé Atelier 9</a>";
+echo "<a href='https://www.youtube.com/watch?v=Z7zkSMLm_Nk&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=21' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
+echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
+
 ?>
 
 
