@@ -325,7 +325,7 @@ echo "</div>";
 
 
 
-// Atelier 8
+// Atelier 9
 echo "<div class='card'>";
 echo "<h2>Atelier 9</h2>";
 echo "<a href='/ApplicationBDD.pptx' class='btn'>Ennoncé Atelier 9</a>";
@@ -334,6 +334,18 @@ echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i c
 
 
 echo "</div>";
+
+
+// Atelier 10
+echo "<div class='card'>";
+echo "<h2>Atelier 10</h2>";
+echo "<a href='/At10.pdf' class='btn'>Ennoncé Atelier 10</a>";
+echo "<a href='https://www.youtube.com/watch?v=XPzXxS_OP20&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=25' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
+echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
+
 
 ?>
 
