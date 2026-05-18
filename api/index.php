@@ -390,6 +390,16 @@ echo "<a href='https://github.com/karim-azeggouar/MVC.git' class='btn'><i class=
 
 
 echo "</div>";
+
+// Atelier 14
+echo "<div class='card'>";
+echo "<h2>EFM Exemples  </h2>";
+echo "<a href='/M107_EFM_DEV_V1.docx' class='btn'>EFM1 </a>";
+echo "<a href='/gestionstagiaire_v1.sql' class='btn'>DB-EFM1 </a>";
+echo "<a href='/M107_EFM_DEV_V2.docx' class='btn'>EFM2 </a>";
+echo "<a href='/gestionproduit_v2.sql' class='btn'>DB-EFM2 </a>";
+
+echo "</div>";
 ?>
 
 
