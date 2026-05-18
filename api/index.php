@@ -352,14 +352,35 @@ echo "</div>";
 
 // Atelier 11
 echo "<div class='card'>";
-echo "<h2>Atelier 11</h2>";
-echo "<a href='/At11.pdf' class='btn'>Ennoncé Atelier 11</a>";
+echo "<h2>Atelier 11 Ajax Reponse HTML</h2>";
+echo "<a href='/At11.pdf' class='btn'>Ennoncé Atelier 11 </a>";
 echo "<a href='https://www.youtube.com/watch?v=SwKbmooc-7Y&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=27' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
 
 
 echo "</div>";
 
+
+// Atelier 12
+echo "<div class='card'>";
+echo "<h2>Atelier 12 Ajax Reponse Json </h2>";
+echo "<a href='/At12.pdf' class='btn'>Ennoncé Atelier 12</a>";
+echo "<a href='https://www.youtube.com/watch?v=Yo70KPu-MYY&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=29' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
+echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
+
+
+// Atelier 13
+echo "<div class='card'>";
+echo "<h2>Atelier 13 services web </h2>";
+echo "<a href='/At12.pdf' class='btn'>Ennoncé Atelier 13</a>";
+echo "<a href='https://www.youtube.com/watch?v=WJOJH-FgtHY&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=30' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
+echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
 ?>
 
 
