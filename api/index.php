@@ -381,6 +381,15 @@ echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i c
 
 
 echo "</div>";
+
+// Atelier 14
+echo "<div class='card'>";
+echo "<h2>Atelier 14 Architecture MVC </h2>";
+echo "<a href='/At14.pdf' class='btn'>Ennoncé Atelier 14</a>";
+echo "<a href='https://github.com/karim-azeggouar/MVC.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
 ?>
 
 
