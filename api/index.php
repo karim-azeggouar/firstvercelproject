@@ -384,12 +384,25 @@ echo "</div>";
 
 // Atelier 14
 echo "<div class='card'>";
-echo "<h2>Atelier 14 Architecture MVC </h2>";
-echo "<a href='/At14.pdf' class='btn'>Ennoncé Atelier 14</a>";
+echo "<h2>Atelier 14 Burger_Code </h2>";
+echo "<a href='#' class='btn'>Ennoncé Atelier 14</a>";
+echo "<a href='#' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+
+
+echo "</div>";
+
+
+
+// Atelier 15
+echo "<div class='card'>";
+echo "<h2>Atelier 15 Architecture MVC </h2>";
+echo "<a href='/At14.pdf' class='btn'>Ennoncé Atelier 15</a>";
 echo "<a href='https://github.com/karim-azeggouar/MVC.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
 
 
 echo "</div>";
+
+
 
 // Atelier 14
 echo "<div class='card'>";
