@@ -375,7 +375,7 @@ echo "</div>";
 // Atelier 13
 echo "<div class='card'>";
 echo "<h2>Atelier 13 services web </h2>";
-echo "<a href='/At12.pdf' class='btn'>Ennoncé Atelier 13</a>";
+echo "<a href='/At13.pdf' class='btn'>Ennoncé Atelier 13</a>";
 echo "<a href='https://www.youtube.com/watch?v=WJOJH-FgtHY&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=30' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
 
