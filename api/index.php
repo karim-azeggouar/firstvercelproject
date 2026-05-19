@@ -384,9 +384,9 @@ echo "</div>";
 
 // Atelier 14
 echo "<div class='card'>";
-echo "<h2>Atelier 14 Burger_Code </h2>";
-echo "<a href='#' class='btn'>Ennoncé Atelier 14</a>";
-echo "<a href='#' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
+echo "<h2>Atelier 14- Burger_Code - </h2>";
+echo "<a href='/burger_code.pptx' class='btn'>Ennoncé Atelier 14</a>";
+echo "<a href='https://github.com/karim-azeggouar/burgercode.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
 
 
 echo "</div>";
