@@ -250,7 +250,7 @@ echo "</div>";
 
 // Atelier 2
 echo "<div class='card'>";
-echo "<h2>Atelier 2</h2>";
+echo "<h2>Atelier 2-  Gestion d’un formulaire d’inscription </h2>";
 echo "<a href='/At2.pdf' class='btn'>Voir PDF</a>";
 echo "<a href='inscription.php' class='btn'>Inscription en ligne</a>";
 echo "</div>";
@@ -258,7 +258,7 @@ echo "</div>";
 
 // Atelier 3
 echo "<div class='card'>";
-echo "<h2>Atelier 3</h2>";
+echo "<h2>Atelier 3- Upload de fichiers en PHP</h2>";
 echo "<a href='/At3_enn.pdf' class='btn'>Ennoncé Atelier 3</a>";
 echo "<a href='/At3.pdf' class='btn'>Voir Rapport Atelier 3</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier3_dev101.git' class='btn'> <i class='fab fa-github'></i> GitHub Repo</a>";
@@ -269,7 +269,7 @@ echo "</div>";
 
 // Atelier 4
 echo "<div class='card'>";
-echo "<h2>Atelier 4</h2>";
+echo "<h2>Atelier 4- Gestion des étudiants(Fichier texte + Upload photo +Recherche)</h2>";
 echo "<a href='/At4.pdf' class='btn'>Ennoncé Atelier 4</a>";
 echo "<a href='/Rapp4.pdf' class='btn'>Voir Rapport Atelier 4</a>";
 echo "<a href='https://github.com/karim-azeggouar/atel4.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
@@ -281,7 +281,7 @@ echo "</div>";
 
 // Atelier 5
 echo "<div class='card'>";
-echo "<h2>Atelier 5</h2>";
+echo "<h2>Atelier 5- Gestion des sessions, cookies</h2>";
 echo "<a href='/At5.pdf' class='btn'>Ennoncé Atelier 5</a>";
 echo "<a href='/Rapp5.pdf' class='btn'>Voir Rapport Atelier 5</a>";
 echo "<a href='https://github.com/karim-azeggouar/Atelier5.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
@@ -292,7 +292,7 @@ echo "</div>";
 
 // Atelier 6
 echo "<div class='card'>";
-echo "<h2>Atelier 6</h2>";
+echo "<h2>Atelier 6- la POO en PHP</h2>";
 echo "<a href='/At6.pdf' class='btn'>Ennoncé Atelier 6</a>";
 echo "<a href='#' class='btn'>Voir Rapport Atelier 6</a>";
 echo "<a href='#' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
@@ -302,7 +302,7 @@ echo "</div>";
 
 // Atelier 7
 echo "<div class='card'>";
-echo "<h2>Atelier 7</h2>";
+echo "<h2>Atelier 7- POO en PHP avec Sessions</h2>";
 echo "<a href='/At7.pdf' class='btn'>Ennoncé Atelier 7</a>";
 echo "<a href='/Rapp7.pdf' class='btn'>Voir Rapport Atelier 7</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier7.git' class='btn'><i class='fab fa-github'></i> GitHub Repo</a>";
@@ -312,7 +312,7 @@ echo "</div>";
 
 // Atelier 8
 echo "<div class='card'>";
-echo "<h2>Atelier 8</h2>";
+echo "<h2>Atelier 8- Application E-Fruits controle continu</h2>";
 echo "<a href='/At8.pdf' class='btn'>Ennoncé Atelier 8</a>";
 echo "<a href='https://www.youtube.com/watch?v=7GhpIEdlqDQ' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier8.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
@@ -327,7 +327,7 @@ echo "</div>";
 
 // Atelier 9
 echo "<div class='card'>";
-echo "<h2>Atelier 9</h2>";
+echo "<h2>Atelier 9- Mysql PDO  : application gestion des etudiants</h2>";
 echo "<a href='/ApplicationBDD.pptx' class='btn'>Ennoncé Atelier 9</a>";
 echo "<a href='https://www.youtube.com/watch?v=Z7zkSMLm_Nk&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=21' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
@@ -338,7 +338,7 @@ echo "</div>";
 
 // Atelier 10
 echo "<div class='card'>";
-echo "<h2>Atelier 10</h2>";
+echo "<h2>Atelier 10-La Pagination en PHP</h2>";
 echo "<a href='/At10.pdf' class='btn'>Ennoncé Atelier 10</a>";
 echo "<a href='https://www.youtube.com/watch?v=XPzXxS_OP20&list=PL7FOokTTayoVqF9RIdBg3E9oQCEWSE4df&index=25' class='btn'><i class='fab fa-youtube'></i> Video Youtube</a>";
 echo "<a href='https://github.com/karim-azeggouar/atelier9.git' class='btn'><i class='fab fa-github'></i> GitHub Repo Local</a>";
